@@ -5,11 +5,14 @@ Infine scrivi sulla pagina “La password assegnata è: ” nomecognomecolorepre
 
 // i ask the user for his name "chiedo all'utente il suo nome"
 const name = prompt("Dimmi il tuo nome")
+
 // i ask the user for his surname "chiedo all'utente il suo cognome"
-const surname
+const surname = prompt("Dimmi il tuo cognome")
+
 // i ask for his favorite color "chiedo il suo colore preferito"
+const favoriteColor = prompt("Dimmi il tuo colore preferito")
 
 // i write on the page "la password assegnata é: " namesurnamefavoritecolor21
 let password = "La password assegnata é:"
 document.getElementById("generatore-password")
-.innerHTML= `${name}21`
+.innerHTML= `${name}${surname}${favoriteColor}21`
