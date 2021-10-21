@@ -19,10 +19,11 @@ document.getElementById("generatore-password")
 .innerHTML= `${name}${surname}${favoriteColor}21`
  */
  
+let form = document.getElementById('signup-form');
 
 // i ask the user for his name "chiedo all'utente il suo nome"
-let name;
-document.getElementById(name)
+let name = form.elements [0]
+
 
 // i ask the user for his surname "chiedo all'utente il suo cognome"
 const surname;
@@ -38,3 +39,9 @@ document.getElementById(favoritecolor)
 let password = "La password assegnata é:"
 document.getElementById("generatore-password")
 .innerHTML= `${name}${surname}${favoriteColor}21`
+
+
+// listener
+let button;
+document.getElementById("button");
+button.addEventListener("click",function())
